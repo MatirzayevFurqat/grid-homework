@@ -16,6 +16,7 @@ body{
     border: 2px solid #333;
     display: grid;
     grid-template-rows: 50px 150px 120px 120px 120px 120px 50px;
+    grid-template-columns: 100%;
     gap: 1px;
 }
 
@@ -55,13 +56,9 @@ body{
 
 
 .in-con:nth-child(4){
-    width: 500px;
-    background-color: #2295fa;
+    background-color: #f4f4f4;
     display: grid;
     grid-template-columns: 15% 85%;
-    /* align-items: center; */
-    /* justify-content: start; */
-    /* align-content: center; */
 }
 
 .in-con:nth-child(4) .content{
@@ -100,6 +97,10 @@ body{
     background-color: #B16EDF;
 }
 
+.in-con:nth-child(5) .content{
+    width: 100px;
+    height: 90%;
+}
 
 .in-con:nth-child(6){
     background-color: #2295fa;
